@@ -15,4 +15,15 @@ fun main(args: Array<String>) {
     */
     var b : Long = 100
     b = 30000000000
+
+    //***********************FLOAT - DOUBLE
+
+    //Dec's first value is a float value.
+    var dec = 3.14f
+    dec = 3.010101665f //print out 3.0101016
+    //float only accepts 7 decimal digits
+
+    //Double takes 16 decimal digits
+
+
 }
