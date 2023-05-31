@@ -1,6 +1,9 @@
+import com.sun.jdi.Value
+import kotlin.reflect.typeOf
+
 fun main(args: Array<String>) {
 
-    /*  When a variable not defined with its type, after getting first value
+    /*  When a variable not defined with its type after getting first value
         variable will automatically detect the suitable type for the variable
         and will give that type to variable.        */
     var a = 100
@@ -25,5 +28,9 @@ fun main(args: Array<String>) {
 
     //Double takes 16 decimal digits
 
-
+    //Type conversion of val
+    val intVal : Int = 10
+    intVal.toDouble()
+    val doubleA : Double = 5.12
+    println(doubleA)
 }
